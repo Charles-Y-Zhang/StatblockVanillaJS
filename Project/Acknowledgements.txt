@@ -1,4 +1,4 @@
-Special Thanks to all the following:
+Thanks to the following for producing open source solutions in the following:
 
 eligray on Github (Eli Gray) for producing FileSaver.js
 	https://github.com/eligrey/FileSaver.js
