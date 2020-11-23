@@ -1,0 +1,14 @@
+<div class="textArea">
+	<div class="textAreaTT" id="tatt-{eid}-0" hidden>
+		<h2 contenteditable="true" class="textAreaTitle" id="tatt-{eid}-2">Title</h2> <button class="textAreaSave" id="{eid}">Save</button><button class="textAreaDelete" id="tad-{eid}-0">Delete</button>
+		<div contenteditable="true" id="tatt-{eid}-1">
+		This is a text area.
+		</div>
+	</div>
+	<div class="textAreaHTML" id="tahtml-{eid}-0">
+		<h2 class="textAreaTitle" id="tahtml-{eid}-2">Title</h2> <button class="textAreaEdit" id="{eid}">Edit</button><button class="textAreaDelete" id="tad-{eid}-1">Delete</button>
+		<div id="tahtml-{eid}-1">
+		This is a text area.
+		</div>
+	</div>
+</div> <!-- textArea -->

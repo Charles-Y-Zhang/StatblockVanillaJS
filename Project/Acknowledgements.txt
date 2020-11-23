@@ -1,0 +1,7 @@
+Special Thanks to all the following:
+
+eligray on Github (Eli Gray) for producing FileSaver.js
+	https://github.com/eligrey/FileSaver.js
+
+borgar on Github (Borgar Þorsteinsson) for producing textile.js
+	https://github.com/borgar/textile-js

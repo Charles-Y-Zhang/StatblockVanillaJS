@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>testing</title>
+	<link rel="stylesheet" type="text/css" href="../resources/theme.css">
+	<!-- StylePH -->
+	<meta charset="utf-8">
+</head>
+
+<body>	
+	<div id="navbar">
+		<button id="nbDropdownBtn"><div id="ddArrow"></div></button>
+		<div id="recentlyVisited"><button id="rv-testing" class="rvButton">Testing</button><button id="rv-hiding" class="rvButton">Hiding</button></div>
+		<div id="searchBar">
+			<form id="searchForm" autocomplete="off">
+				<input type="text" id="searchBox" onkeyup="searchUpdate()" placeholder="Search">
+			</form>
+		</div>
+	</div>
+
+	<div id="nbFlex">
+		<div id="nbDropdownMenu" hidden="">
+			<button class="ddMenuButton">HELLO</button>
+		</div>
+		<div id="nbFlexPad"></div>
+		<div id="searchResults" hidden="">
+		</div>
+	</div>
+
+	<!-- STARTCONTENT -->
+	<div id="content" spellcheck="false">
+		<div id="pageTitle">
+		<div id="testing">
+			<div class="textArea" id="element-0">
+				<div class="textAreaTT" id="tatt-0-0" hidden="">
+					<h2 class="textAreaTitle" id="tatt-0-2" contenteditable="true">Title</h2> <button class="textAreaSave defaultBtn" id="tas-0">Save</button><button class="textAreaEDelete defaultBtn" id="tad-0-0">Delete</button>
+					<div id="tatt-0-1" contenteditable="true">This is a text area.</div>
+				</div>
+				<div class="textAreaHTML" id="tahtml-0-0">
+					<h2 class="textAreaTitle" id="tahtml-0-2">Title</h2> <button class="textAreaEdit defaultBtn" id="tae-0">Edit</button><button class="textAreaTDelete defaultBtn" id="tad-0-1">Delete</button>
+					<div id="tahtml-0-1"><p>This is a text area.</p></div>
+				</div>
+			</div> <!-- textArea -->
+		</div> <!-- page navbar -->
+
+
+		<div id="hiding" hidden="">
+		
+	<div class="textArea" id="element-1">
+		<div class="textAreaTT" id="tatt-1-0" hidden="">
+			<h2 class="textAreaTitle" id="tatt-1-2" contenteditable="true">Title</h2> <button class="textAreaSave defaultBtn" id="tas-1">Save</button><button class="textAreaEDelete defaultBtn" id="tad-1-0">Delete</button>
+			<div id="tatt-1-1" contenteditable="true">HIDINGU</div>
+		</div>
+		<div class="textAreaHTML" id="tahtml-1-0">
+			<h2 class="textAreaTitle" id="tahtml-1-2">Title</h2> <button class="textAreaEdit defaultBtn" id="tae-1">Edit</button><button class="textAreaTDelete defaultBtn" id="tad-1-1">Delete</button>
+			<div id="tahtml-1-1"><p><span class="caps">HIDINGU</span></p></div>
+		</div>
+	</div> <!-- textArea -->
+
+ <!-- ContentPH --></div>
+		<!-- ContentPH -->
+	</div>
+	<!-- ENDCONTENT -->
+
+	<hr id="contentBottom">
+
+	<div class="acbWrapper" id="acbw">
+		<button class="addContentBtn defaultBtn" id="acb" title="Insert New Element">+</button>
+	</div>
+
+	<div id="acMenu" hidden="">
+		<button id="acAccept" class="defaultBtn">Accept</button><button id="acCancel" class="defaultBtn">Cancel</button><br>
+		<select id="acSelect">
+			<option>textArea</option>
+		</select>
+	</div>
+
+
+
+<div id="jsList" hidden="">
+	FileSaver.js, saveDocument.js, searchBar.js, textArea.js, textile.js, utilities.js, elementAdder.js, initElement.js
+</div>
+
+<div id="articles" hidden="">alice; alive; Alteration; Bob; Banjo; Books</div>
+
+<div id="elementCount" hidden="">2</div>
+
+<div id="currPage" hidden="">testing</div>
+
+<div id="fileName" hidden="">testing</div>
+
+<!-- BEGIN TEMPLATE AREA -->
+
+<div id="textAreaTemplate" hidden="">
+	<div class="textArea" id="element-{eid}">
+		<div class="textAreaTT" id="tatt-{eid}-0" hidden="">
+			<h2 class="textAreaTitle" id="tatt-{eid}-2" contenteditable="true">Title</h2> <button class="textAreaSave defaultBtn" id="tas-{eid}">Save</button><button class="textAreaEDelete defaultBtn" id="tad-{eid}-0">Delete</button>
+			<div id="tatt-{eid}-1" contenteditable="true">
+			This is a text area.
+			</div>
+		</div>
+		<div class="textAreaHTML" id="tahtml-{eid}-0">
+			<h2 class="textAreaTitle" id="tahtml-{eid}-2">Title</h2> <button class="textAreaEdit defaultBtn" id="tae-{eid}">Edit</button><button class="textAreaTDelete defaultBtn" id="tad-{eid}-1">Delete</button>
+			<div id="tahtml-{eid}-1">
+			This is a text area.
+			</div>
+		</div>
+	</div> <!-- textArea -->
+</div> <!-- textAreaTemplate -->
+
+<!-- END TEMPLATE AREA -->
+
+<script src="../resources/utilities.js"></script>
+<script src="../resources/navbarUtils.js"></script>
+<script src="../resources/FileSaver.js"></script>
+<script src="../resources/saveDocument.js"></script>
+<script src="../resources/searchBar.js"></script>
+<script src="../resources/elementAdder.js"></script>
+<script src="../resources/textArea.js"></script>
+<script src="../resources/textile.js"></script>
+<script src="../resources/initElement.js"></script>
+<!-- JsPH -->
+
+</div></body>
+
+</html>

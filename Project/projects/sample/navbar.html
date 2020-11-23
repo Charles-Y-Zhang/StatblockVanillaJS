@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title id="tabTitle">testing</title>
+	<link rel="stylesheet" type="text/css" href="../../resources/theme.css">
+	<!-- StylePH -->
+	<meta charset="utf-8"/>
+</head>
+
+<body>	
+	<div id="navbar">
+		<div id="hello">
+			+
+		</div>
+		<div id="searchBar">
+			<form id="searchForm" autocomplete="off">
+				<input type="text" id="searchBox" onkeyup="searchUpdate()" placeholder="Search">
+			</form>
+		</div>
+	</div>
+
+	<div id="srFlex">
+		<div id= "srFlexPad"></div>
+		<div id="searchResults" hidden>
+		</div>
+	</div>
+
+	<!-- STARTCONTENT -->
+	<div id="content" spellcheck="false">
+		<div id="testing">
+			<div class="textArea" id="element-0">
+				<div class="textAreaTT" id="tatt-0-0" hidden>
+					<h2 contenteditable="true" class="textAreaTitle" id="tatt-0-2">Title</h2> <button class="textAreaSave" id="tas-0">Save</button><button class="textAreaEDelete" id="tad-0-0">Delete</button>
+					<div contenteditable="true" id="tatt-0-1">
+					This is a text area.
+					</div>
+				</div>
+				<div class="textAreaHTML" id="tahtml-0-0">
+					<h2 class="textAreaTitle" id="tahtml-0-2">Title</h2> <button class="textAreaEdit" id="tae-0">Edit</button><button class="textAreaTDelete" id="tad-0-1">Delete</button>
+					<div id="tahtml-0-1">
+					This is a text area.
+					</div>
+				</div>
+			</div> <!-- textArea -->
+		</div> <!-- page navbar -->
+
+		<!-- ContentPH -->
+	</div>
+	<!-- ENDCONTENT -->
+
+	<hr id="contentBottom">
+
+	<div class="acbWrapper" id="acbw">
+		<button class="addContentBtn" id="acb" title="Insert New Element">+</button>
+	</div>
+
+	<div id="acMenu" hidden>
+		<button id="acAccept">Accept</button><button id="acCancel">Cancel</button><br>
+		<select id="acSelect">
+			<option>textArea</option>
+		</select>
+	</div>
+	<!-- ENDCONTENT -->
+
+
+</body>
+
+<div id="jsList" hidden>
+	FileSaver.js, saveDocument.js, searchBar.js, textArea.js, textile.js, utilities.js, elementAdder.js, initElement.js
+</div>
+
+<div id="articles" hidden>alice; alive; Alteration; Bob; Banjo; Books</div>
+
+<div id="elementCount" hidden>1</div>
+
+<!-- BEGIN TEMPLATE AREA -->
+
+<div id="textAreaTemplate" hidden>
+	<div class="textArea" id="element-{eid}">
+		<div class="textAreaTT" id="tatt-{eid}-0" hidden>
+			<h2 contenteditable="true" class="textAreaTitle" id="tatt-{eid}-2">Title</h2> <button class="textAreaSave" id="tas-{eid}">Save</button><button class="textAreaEDelete" id="tad-{eid}-0">Delete</button>
+			<div contenteditable="true" id="tatt-{eid}-1">
+			This is a text area.
+			</div>
+		</div>
+		<div class="textAreaHTML" id="tahtml-{eid}-0">
+			<h2 class="textAreaTitle" id="tahtml-{eid}-2">Title</h2> <button class="textAreaEdit" id="tae-{eid}">Edit</button><button class="textAreaTDelete" id="tad-{eid}-1">Delete</button>
+			<div id="tahtml-{eid}-1">
+			This is a text area.
+			</div>
+		</div>
+	</div> <!-- textArea -->
+</div> <!-- textAreaTemplate -->
+
+<!-- END TEMPLATE AREA -->
+
+<script src="../../resources/utilities.js"></script>
+<script src="../../resources/FileSaver.js"></script>
+<script src="../../resources/saveDocument.js"></script>
+<script src="../../resources/searchBar.js"></script>
+<script src="../../resources/elementAdder.js"></script>
+<script src="../../resources/textArea.js"></script>
+<script src="../../resources/textile.js"></script>
+<script src="../../resources/initElement.js"></script>
+<!-- JsPH -->
+
+</html>
